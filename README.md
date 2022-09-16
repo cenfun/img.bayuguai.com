@@ -1,4 +1,7 @@
-# Welcome to bayuguai endpoint
+# Welcome to Bayuguai 
+- homepage: [https://img.bayuguai.com/](https://img.bayuguai.com/)
+- github: [https://github.com/cenfun/img.bayuguai.com](https://github.com/cenfun/img.bayuguai.com)
+## Endpoint
 ```
 https://img.bayuguai.com/:platform/:type/:ns?/:name
 ```
