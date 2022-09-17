@@ -20,7 +20,7 @@ https://img.bayuguai.com/npm/downloads/:ns?/:name?height=20&label=&color=%234c1&
 |@koa/router|![](https://img.bayuguai.com/npm/downloads/@koa/router)|![](https://img.bayuguai.com/npm/downloads/@koa/router?height=30)|
 ## github languages (svg)
 ```
-https://img.bayuguai.com/github/languages/:name?width=600&title=&colors=
+https://img.bayuguai.com/github/languages/:name?width=600&limit=20&title=&colors=
 ```
 ![](https://img.bayuguai.com/github/languages/cenfun)
 ![](https://img.bayuguai.com/github/languages/ruanyf)
