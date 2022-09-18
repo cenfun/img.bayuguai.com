@@ -7,7 +7,7 @@ https://img.bayuguai.com/:platform/:type/:ns?/:name
 ```
 ## npm downloads (svg)
 ```
-https://img.bayuguai.com/npm/downloads/:ns?/:name?height=20&label=&color=%234c1&bg=%23007ec6
+https://img.bayuguai.com/npm/downloads/:ns?/:name?height=&color=&bg=&label=
 ```
 
 
@@ -18,11 +18,22 @@ https://img.bayuguai.com/npm/downloads/:ns?/:name?height=20&label=&color=%234c1&
 |open-icons|![](https://img.bayuguai.com/npm/downloads/open-icons?label=downloads)|![](https://img.bayuguai.com/npm/downloads/open-icons?height=30)|
 |lithops-ui|![](https://img.bayuguai.com/npm/downloads/lithops-ui)|![](https://img.bayuguai.com/npm/downloads/lithops-ui?height=30)|
 |@koa/router|![](https://img.bayuguai.com/npm/downloads/@koa/router)|![](https://img.bayuguai.com/npm/downloads/@koa/router?height=30)|
+
+## github contributions (svg)
+```
+https://img.bayuguai.com/github/contributions/:name?width=&color=&axis=&bg=&title=
+```
+![](https://img.bayuguai.com/github/contributions/cenfun)
+![](https://img.bayuguai.com/github/contributions/ruanyf)
+![](https://img.bayuguai.com/github/contributions/yyx990803?width=380)
+![](https://img.bayuguai.com/github/contributions/tj?width=700)
+![](https://img.bayuguai.com/github/contributions/ro)
 ## github languages (svg)
 ```
-https://img.bayuguai.com/github/languages/:name?width=600&limit=20&title=&colors=
+https://img.bayuguai.com/github/languages/:name?width=&limit=&colors=&bg=&title=
 ```
 ![](https://img.bayuguai.com/github/languages/cenfun)
 ![](https://img.bayuguai.com/github/languages/ruanyf)
-![](https://img.bayuguai.com/github/languages/yyx990803?width=350)
+![](https://img.bayuguai.com/github/languages/yyx990803?width=380)
 ![](https://img.bayuguai.com/github/languages/tj?width=700)
+![](https://img.bayuguai.com/github/languages/ro)
