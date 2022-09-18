@@ -37,3 +37,29 @@ https://img.bayuguai.com/github/languages/:name?width=&limit=&colors=&bg=&title=
 ![](https://img.bayuguai.com/github/languages/yyx990803?width=380)
 ![](https://img.bayuguai.com/github/languages/tj?width=700)
 ![](https://img.bayuguai.com/github/languages/ro)
+
+
+### clear github image cache
+- [About anonymized URLs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls)
+- first you need generate urls from github page
+```js
+Array.from(document.querySelectorAll("[data-canonical-src]")).filter(img=>img.getAttribute('data-canonical-src').startsWith("https://img.bayuguai.com")).map(img=>img.src)
+```
+- copy urls and call with PURGE method (axios example)
+```js
+const axios = require('axios');
+const start = async () => {
+    const list = [
+        //paste your urls
+    ];
+    for (const item of list) {
+        const res = await axios({
+            url: item,
+            method: 'PURGE'
+        });
+        console.log(res.data);
+    }
+};
+
+start();
+```
