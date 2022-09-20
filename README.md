@@ -1,55 +1,108 @@
 # Welcome to Bayuguai 
-- homepage: [https://img.bayuguai.com/](https://img.bayuguai.com/)
-- github: [https://github.com/cenfun/img.bayuguai.com](https://github.com/cenfun/img.bayuguai.com)
+- Homepage: [https://img.bayuguai.com/](https://img.bayuguai.com/)
+- Github: [https://github.com/cenfun/img.bayuguai.com](https://github.com/cenfun/img.bayuguai.com)
+- [Endpoint](#endpoint)
+    - [npm downloads](#npm-downloads)
+    - [npm size](#npm-size)
+    - [github contributions](#github-contributions)
+    - [github languages](#github-languages)
+- [How to clear github image cache](#how-to-clear-github-image-cache)
+
 ## Endpoint
 ```
 https://img.bayuguai.com/:platform/:type/:ns?/:name
 ```
-## npm downloads (svg)
+## npm downloads
 ```
-https://img.bayuguai.com/npm/downloads/:ns?/:name?height=&color=&bg=&title=
+https://img.bayuguai.com/npm/downloads/:ns?/:name
 ```
-|Name|20 height (default)|30 height|
+<details>
+    <summary>query</summary>
+    <ul>
+        <li>height=20</li>
+        <li>color=#44cc11</li>
+        <li>bg=#007ec6</li>
+        <li>label={total}/month</li>
+        <li>output=svg | json</li>
+    </ul>
+</details>
+
+|Name|20 height|30 height|
 |---|----|-----|
 |puppeteer-chromium-resolver|![](https://img.bayuguai.com/npm/downloads/puppeteer-chromium-resolver)|![](https://img.bayuguai.com/npm/downloads/puppeteer-chromium-resolver?height=30)|
 |vue|![](https://img.bayuguai.com/npm/downloads/vue)|![](https://img.bayuguai.com/npm/downloads/vue?height=30)|
-|open-icons|![](https://img.bayuguai.com/npm/downloads/open-icons?title=downloads:{total})|![](https://img.bayuguai.com/npm/downloads/open-icons?height=30)|
+|open-icons|![](https://img.bayuguai.com/npm/downloads/open-icons?label=downloads:{total})|![](https://img.bayuguai.com/npm/downloads/open-icons?height=30)|
 |lithops-ui|![](https://img.bayuguai.com/npm/downloads/lithops-ui)|![](https://img.bayuguai.com/npm/downloads/lithops-ui?height=30)|
-|@koa/router|![](https://img.bayuguai.com/npm/downloads/@koa/router)|![](https://img.bayuguai.com/npm/downloads/@koa/router?height=30)|
+|@koa/router|![](https://img.bayuguai.com/npm/downloads/@koa/router)|![](https://img.bayuguai.com/npm/downloads/@koa/router?height=30&label=)|
 
-## npm size (svg)
+## npm size
 ```
-https://img.bayuguai.com/npm/size/:ns?/:name?bg=&title=
+https://img.bayuguai.com/npm/size/:ns?/:name
 ```
+<details>
+    <summary>query</summary>
+    <ul>
+        <li>bg=#007ec6</li>
+        <li>label=</li>
+        <li>output=svg | json</li>
+    </ul>
+</details>
+
 |Name|Size|
 |---|---:|
 |puppeteer-chromium-resolver|![](https://img.bayuguai.com/npm/size/puppeteer-chromium-resolver)|
 |vue|![](https://img.bayuguai.com/npm/size/vue)|
-|open-icons|![](https://img.bayuguai.com/npm/size/open-icons?title=size)|
+|webpack-stats-report|![](https://img.bayuguai.com/npm/size/webpack-stats-report)|
+|starfall-cli|![](https://img.bayuguai.com/npm/size/starfall-cli)|
+|open-icons|![](https://img.bayuguai.com/npm/size/open-icons?label=size)|
 |lithops-ui|![](https://img.bayuguai.com/npm/size/lithops-ui)|
 |@koa/router|![](https://img.bayuguai.com/npm/size/@koa/router)|
 
-## github contributions (svg)
+## github contributions
 ```
-https://img.bayuguai.com/github/contributions/:name?width=&color=&axis=&bg=&title=
+https://img.bayuguai.com/github/contributions/:name
 ```
+<details>
+    <summary>query</summary>
+    <ul>
+        <li>width=600</li>
+        <li>color=#44cc11</li>
+        <li>axis=#999</li>
+        <li>bg=#fff</li>
+        <li>label={total} Contributions Past Year - {name}</li>
+        <li>output=svg | json</li>
+    </ul>
+</details>
+
 ![](https://img.bayuguai.com/github/contributions/cenfun)
 ![](https://img.bayuguai.com/github/contributions/ruanyf)
-![](https://img.bayuguai.com/github/contributions/yyx990803?width=380&title={name}%20contributions:%20{total})
+![](https://img.bayuguai.com/github/contributions/yyx990803?width=380&label={name}%20contributions:%20{total})
 ![](https://img.bayuguai.com/github/contributions/mxschmitt?width=700)
 ![](https://img.bayuguai.com/github/contributions/ro)
-## github languages (svg)
+## github languages
 ```
-https://img.bayuguai.com/github/languages/:name?width=&limit=&colors=&bg=&title=
+https://img.bayuguai.com/github/languages/:name
 ```
+<details>
+    <summary>query</summary>
+    <ul>
+        <li>width=600</li>
+        <li>limit=20</li>
+        <li>colors=dodgerblue,green,orangered...</li>
+        <li>bg=#fff</li>
+        <li>label={total} Used Languages - {name}</li>
+        <li>output=svg | json</li>
+    </ul>
+</details>
+
 ![](https://img.bayuguai.com/github/languages/cenfun)
 ![](https://img.bayuguai.com/github/languages/ruanyf)
-![](https://img.bayuguai.com/github/languages/yyx990803?width=380&title={name}%20used%20languages:%20{total})
+![](https://img.bayuguai.com/github/languages/yyx990803?width=380&label={name}%20used%20languages:%20{total})
 ![](https://img.bayuguai.com/github/languages/mxschmitt?width=700)
 ![](https://img.bayuguai.com/github/languages/ro)
 
-
-### clear github image cache
+---
+## How to clear github image cache
 - [About anonymized URLs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls)
 - first you need generate urls from github page
 ```js
