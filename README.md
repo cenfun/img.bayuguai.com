@@ -1,9 +1,10 @@
-# Welcome to Bayuguai 
-- Homepage: [https://img.bayuguai.com/](https://img.bayuguai.com/)
+# Welcome to Bayuguai <a name="top"></a>
+- Homepage: [https://img.bayuguai.com/](https://img.bayuguai.com/) 
 - Github: [https://github.com/cenfun/img.bayuguai.com](https://github.com/cenfun/img.bayuguai.com)
 - [Endpoint](#endpoint)
     - [npm downloads](#npm-downloads)
     - [npm size](#npm-size)
+    - [npm dependencies](#npm-dependencies)
     - [github contributions](#github-contributions)
     - [github languages](#github-languages)
 - [How to clear github image cache](#how-to-clear-github-image-cache)
@@ -31,10 +32,11 @@ https://img.bayuguai.com/npm/downloads/:ns?/:name
 |---|----|-----|
 |puppeteer-chromium-resolver|![](https://img.bayuguai.com/npm/downloads/puppeteer-chromium-resolver)|![](https://img.bayuguai.com/npm/downloads/puppeteer-chromium-resolver?height=30)|
 |vue|![](https://img.bayuguai.com/npm/downloads/vue)|![](https://img.bayuguai.com/npm/downloads/vue?height=30)|
-|open-icons|![](https://img.bayuguai.com/npm/downloads/open-icons?label=downloads:{total})|![](https://img.bayuguai.com/npm/downloads/open-icons?height=30)|
+|open-icons|![](https://img.bayuguai.com/npm/downloads/open-icons?label={total}%20downloads)|![](https://img.bayuguai.com/npm/downloads/open-icons?height=30)|
 |lithops-ui|![](https://img.bayuguai.com/npm/downloads/lithops-ui)|![](https://img.bayuguai.com/npm/downloads/lithops-ui?height=30)|
 |@koa/router|![](https://img.bayuguai.com/npm/downloads/@koa/router)|![](https://img.bayuguai.com/npm/downloads/@koa/router?height=30&label=)|
 
+[▲Top](#top)
 ## npm size
 ```
 https://img.bayuguai.com/npm/size/:ns?/:name
@@ -53,11 +55,38 @@ https://img.bayuguai.com/npm/size/:ns?/:name
 |puppeteer-chromium-resolver|![](https://img.bayuguai.com/npm/size/puppeteer-chromium-resolver)|
 |vue|![](https://img.bayuguai.com/npm/size/vue)|
 |webpack-stats-report|![](https://img.bayuguai.com/npm/size/webpack-stats-report)|
+|console-grid|![](https://img.bayuguai.com/npm/size/console-grid)|
 |starfall-cli|![](https://img.bayuguai.com/npm/size/starfall-cli)|
 |open-icons|![](https://img.bayuguai.com/npm/size/open-icons?label=size)|
 |lithops-ui|![](https://img.bayuguai.com/npm/size/lithops-ui)|
 |@koa/router|![](https://img.bayuguai.com/npm/size/@koa/router)|
 
+[▲Top](#top)
+## npm dependencies
+```
+https://img.bayuguai.com/npm/dependencies/:ns?/:name
+```
+<details>
+    <summary>query</summary>
+    <ul>
+        <li>bg=#007ec6</li>
+        <li>label=</li>
+        <li>output=svg | json</li>
+    </ul>
+</details>
+
+|Name|Dependencies|
+|---|---:|
+|puppeteer-chromium-resolver|![](https://img.bayuguai.com/npm/dependencies/puppeteer-chromium-resolver)|
+|vue|![](https://img.bayuguai.com/npm/dependencies/vue)|
+|webpack-stats-report|![](https://img.bayuguai.com/npm/dependencies/webpack-stats-report)|
+|console-grid|![](https://img.bayuguai.com/npm/dependencies/console-grid)|
+|starfall-cli|![](https://img.bayuguai.com/npm/dependencies/starfall-cli)|
+|open-icons|![](https://img.bayuguai.com/npm/dependencies/open-icons?label=dependencies)|
+|lithops-ui|![](https://img.bayuguai.com/npm/dependencies/lithops-ui)|
+|@koa/router|![](https://img.bayuguai.com/npm/dependencies/@koa/router)|
+
+[▲Top](#top)
 ## github contributions
 ```
 https://img.bayuguai.com/github/contributions/:name
@@ -79,6 +108,8 @@ https://img.bayuguai.com/github/contributions/:name
 ![](https://img.bayuguai.com/github/contributions/yyx990803?width=380&label={name}%20contributions:%20{total})
 ![](https://img.bayuguai.com/github/contributions/mxschmitt?width=700)
 ![](https://img.bayuguai.com/github/contributions/ro)
+
+[▲Top](#top)
 ## github languages
 ```
 https://img.bayuguai.com/github/languages/:name
@@ -102,6 +133,7 @@ https://img.bayuguai.com/github/languages/:name
 ![](https://img.bayuguai.com/github/languages/ro)
 
 ---
+[▲Top](#top)
 ## How to clear github image cache
 - [About anonymized URLs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls)
 - first you need generate urls from github page
@@ -126,3 +158,4 @@ const start = async () => {
 
 start();
 ```
+[▲Top](#top)
