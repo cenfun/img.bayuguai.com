@@ -21,6 +21,7 @@ https://img.bayuguai.com/npm/downloads/:ns?/:name
     <summary>query</summary>
     <ul>
         <li>height=20</li>
+        <li>radius=15%</li>
         <li>color=#44cc11</li>
         <li>bg=#007ec6</li>
         <li>label={total}/month</li>
@@ -28,13 +29,13 @@ https://img.bayuguai.com/npm/downloads/:ns?/:name
     </ul>
 </details>
 
-|Name|20 height|30 height|
-|---|----|-----|
-|puppeteer-chromium-resolver|![](https://img.bayuguai.com/npm/downloads/puppeteer-chromium-resolver)|![](https://img.bayuguai.com/npm/downloads/puppeteer-chromium-resolver?height=30)|
-|vue|![](https://img.bayuguai.com/npm/downloads/vue)|![](https://img.bayuguai.com/npm/downloads/vue?height=30)|
-|open-icons|![](https://img.bayuguai.com/npm/downloads/open-icons?label={total}%20downloads)|![](https://img.bayuguai.com/npm/downloads/open-icons?height=30)|
-|lithops-ui|![](https://img.bayuguai.com/npm/downloads/lithops-ui)|![](https://img.bayuguai.com/npm/downloads/lithops-ui?height=30)|
-|@koa/router|![](https://img.bayuguai.com/npm/downloads/@koa/router)|![](https://img.bayuguai.com/npm/downloads/@koa/router?height=30&label=)|
+|Name|Downloads|
+|---|----|
+|puppeteer-chromium-resolver|![](https://img.bayuguai.com/npm/downloads/puppeteer-chromium-resolver?label={total}%20downloads)|
+|vue|![](https://img.bayuguai.com/npm/downloads/vue?label=&height=50&radius=10)|
+|open-icons|![](https://img.bayuguai.com/npm/downloads/open-icons)|
+|lithops-ui|![](https://img.bayuguai.com/npm/downloads/lithops-ui)|
+|@koa/router|![](https://img.bayuguai.com/npm/downloads/@koa/router)|
 
 [▲Top](#top)
 ## npm size
@@ -45,21 +46,23 @@ https://img.bayuguai.com/npm/size/:ns?/:name
     <summary>query</summary>
     <ul>
         <li>bg=#007ec6</li>
-        <li>label=</li>
+        <li>label=size</li>
         <li>output=svg | json</li>
     </ul>
 </details>
 
 |Name|Size|
-|---|---:|
-|puppeteer-chromium-resolver|![](https://img.bayuguai.com/npm/size/puppeteer-chromium-resolver)|
-|vue|![](https://img.bayuguai.com/npm/size/vue)|
+|---|---|
+|puppeteer-chromium-resolver|![](https://img.bayuguai.com/npm/size/puppeteer-chromium-resolver?label=package%20size)|
+|vue|![](https://img.bayuguai.com/npm/size/vue?label=)|
 |webpack-stats-report|![](https://img.bayuguai.com/npm/size/webpack-stats-report)|
 |console-grid|![](https://img.bayuguai.com/npm/size/console-grid)|
 |starfall-cli|![](https://img.bayuguai.com/npm/size/starfall-cli)|
-|open-icons|![](https://img.bayuguai.com/npm/size/open-icons?label=size)|
+|open-icons|![](https://img.bayuguai.com/npm/size/open-icons)|
 |lithops-ui|![](https://img.bayuguai.com/npm/size/lithops-ui)|
 |@koa/router|![](https://img.bayuguai.com/npm/size/@koa/router)|
+|progress|![](https://img.bayuguai.com/npm/size/progress)|
+
 
 [▲Top](#top)
 ## npm dependencies
@@ -70,19 +73,19 @@ https://img.bayuguai.com/npm/dependencies/:ns?/:name
     <summary>query</summary>
     <ul>
         <li>bg=#007ec6</li>
-        <li>label=</li>
+        <li>label=dependencies</li>
         <li>output=svg | json</li>
     </ul>
 </details>
 
 |Name|Dependencies|
-|---|---:|
-|puppeteer-chromium-resolver|![](https://img.bayuguai.com/npm/dependencies/puppeteer-chromium-resolver)|
-|vue|![](https://img.bayuguai.com/npm/dependencies/vue)|
+|---|---|
+|puppeteer-chromium-resolver|![](https://img.bayuguai.com/npm/dependencies/puppeteer-chromium-resolver?label=dependencies%20and%20install%20size)|
+|vue|![](https://img.bayuguai.com/npm/dependencies/vue?label=)|
 |webpack-stats-report|![](https://img.bayuguai.com/npm/dependencies/webpack-stats-report)|
 |console-grid|![](https://img.bayuguai.com/npm/dependencies/console-grid)|
 |starfall-cli|![](https://img.bayuguai.com/npm/dependencies/starfall-cli)|
-|open-icons|![](https://img.bayuguai.com/npm/dependencies/open-icons?label=dependencies)|
+|open-icons|![](https://img.bayuguai.com/npm/dependencies/open-icons)|
 |lithops-ui|![](https://img.bayuguai.com/npm/dependencies/lithops-ui)|
 |@koa/router|![](https://img.bayuguai.com/npm/dependencies/@koa/router)|
 
