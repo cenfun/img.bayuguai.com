@@ -99,8 +99,9 @@ https://img.bayuguai.com/github/contributions/:name
     <ul>
         <li>width=600</li>
         <li>color=#44cc11</li>
-        <li>axis=#999</li>
-        <li>bg=#fff</li>
+        <li>even=#f6f8fa</li>
+        <li>axis=#99999</li>
+        <li>bg=#ffffff</li>
         <li>label={total} Contributions Past Year - {name}</li>
         <li>output=svg | json</li>
     </ul>
@@ -123,7 +124,7 @@ https://img.bayuguai.com/github/languages/:name
         <li>width=600</li>
         <li>limit=20</li>
         <li>colors=dodgerblue,green,orangered...</li>
-        <li>bg=#fff</li>
+        <li>bg=#ffffff</li>
         <li>label={total} Used Languages - {name}</li>
         <li>output=svg | json</li>
     </ul>
