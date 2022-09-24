@@ -9,6 +9,8 @@
     - [github languages](#github-languages)
 - [How to clear github image cache](#how-to-clear-github-image-cache)
 
+![](https://img.bayuguai.com/stats)
+
 ## Endpoint
 ```
 https://img.bayuguai.com/:platform/:type/:ns?/:name
