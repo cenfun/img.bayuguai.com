@@ -63,6 +63,7 @@ https://img.bayuguai.com/npm/size/:ns?/:name
 |open-icons|![](https://img.bayuguai.com/npm/size/open-icons)|
 |lithops-ui|![](https://img.bayuguai.com/npm/size/lithops-ui)|
 |@koa/router|![](https://img.bayuguai.com/npm/size/@koa/router)|
+|esbuild|![](https://img.bayuguai.com/npm/size/esbuild)|
 |progress|![](https://img.bayuguai.com/npm/size/progress)|
 
 
@@ -90,6 +91,7 @@ https://img.bayuguai.com/npm/dependencies/:ns?/:name
 |open-icons|![](https://img.bayuguai.com/npm/dependencies/open-icons)|
 |lithops-ui|![](https://img.bayuguai.com/npm/dependencies/lithops-ui)|
 |@koa/router|![](https://img.bayuguai.com/npm/dependencies/@koa/router)|
+|esbuild|![](https://img.bayuguai.com/npm/dependencies/esbuild)|
 
 [▲Top](#top)
 ## github contributions
